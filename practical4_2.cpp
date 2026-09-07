@@ -26,7 +26,7 @@ int main()
     cout << "Enter Postfix Expression: ";
     cin >> postfix;
 
-    while (postfix[i] != '\\0')
+    while (postfix[i] != '\0')
     {
         char ch = postfix[i];
 
